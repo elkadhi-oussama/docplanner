@@ -221,11 +221,13 @@ filter: brightness(0) saturate(100%) invert(43%) sepia(19%) saturate(0%) hue-rot
 /* start part four */
 .partFour{
     
-   
+   position: relative;
+   overflow: hidden;
     width: 100% !important;
     width: 300px;
     background-color: #e5faf8;
     color: var(--greyColorSite);
+    
 }
 .contant{
     width: 50%;
@@ -251,7 +253,8 @@ filter: brightness(0) saturate(100%) invert(43%) sepia(19%) saturate(0%) hue-rot
 .bigLogo{
     position: absolute;
     margin-top: 50px;
-    margin-left: -200px;
+    margin-left: -150px;
+    
  
 }
 
@@ -286,6 +289,25 @@ filter: brightness(0) saturate(100%) invert(43%) sepia(19%) saturate(0%) hue-rot
 
 /* end part four */
 
+/* start part five */
+.partFive{
+    width: 30%;
+    margin: 5% auto;
+    text-align: center;
+}
+.partFive h2{
+    line-height: 1.5;
+    color: var(--greenColorSite);
+    font-size: var(--fontSizeTheBigHeader);
+}
+.partFive p{
+    color: var(--greyColorSite);
+    margin: 2% auto 0;
+    line-height: 1.5;
+    width: 84%;
+
+}
+/* end part five */
 
 
 /* end main part */
